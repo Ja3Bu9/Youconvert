@@ -62,16 +62,11 @@
               transform: scale(1.1); 
             }
             .conver {
-                      width: 400px; 
+                width: 400px; 
                 text-align: center;
-                -webkit-border: 3px double rgba(164,18,18,0.16);
-                -webkit-border-radius: 0px 40px -10px 40px;
-                -o-border: 3px double rgba(164,18,18,0.16);
-                -o-border-radius: 0px 40px -10px 40px;
-                -moz-border: 3px double rgba(164,18,18,0.16);
-                -moz-border-radius: 0px 40px -10px 40px;
-                border: 3px double rgba(164,18,18,0.16);
-                border-radius: 0px 40px -10px 40px;
+               
+                
+                border-radius: 0px 40px 0px 40px;
                 box-shadow: 0px 0px 40px 20px cornflowerblue;
                 width: 601px;
                 
@@ -551,6 +546,7 @@ draw();
           
 
          }
+         bit1.reverse();
          bit1.push(",");
 
          var p = 0;
@@ -566,6 +562,7 @@ draw();
                     
                     p++;
                   }
+                 
                   document.getElementById("result1").innerHTML=bit1.join("");
          
          }
@@ -648,7 +645,7 @@ draw();
           
 
          }
-
+         bit2.reverse();
          bit2.push(",");
 
          var p = 0;
